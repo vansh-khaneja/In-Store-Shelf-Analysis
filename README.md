@@ -21,15 +21,15 @@ In this project, we used ultralytics ```yolov8``` model to detect the bottles pl
 - Fast and efficient 
 - Best for Diet freaks 
 - Text and Image multimodal searching
-- Easily intgrable with frontend with FastAPI
+- Real-time Analysis
 
 ## Installation
 
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/vansh-khaneja/NutrAI-Searcher-FastAPI
-    cd NutrAI-Searcher-FastAPI
+    git clone https://github.com/vansh-khaneja/In-Store-Shelf-Analysis
+    cd In-Store-Shelf-Analysis
     ```
 
 2. Set up the Python environment and install dependencies:
@@ -55,27 +55,17 @@ In this project, we used ultralytics ```yolov8``` model to detect the bottles pl
 5. Execute the ```main.py``` file by running this command to run the API.
 
     ```sh
-    uvicorn main:app --reload
+    python main.py
     ```
     
-![Alt Text - description of the image](https://github.com/vansh-khaneja/In-Store-Shelf-Analysis/blob/main/cobined_output.png?raw=true)
-
-## Front-End
-
-1. For the execution of front-end refer this [repository](https://github.com/shubhamchoudhary-2003/NutrAI-Frontend).
-    ```sh
-   https://github.com/shubhamchoudhary-2003/NutrAI-Frontend
-    ```
-
-    
-
-![Alt Text - description of the image](https://github.com/vansh-khaneja/NutrAI-Searcher-FastAPI/blob/main/sample.png?raw=true)
+![Alt Text - description of the image](https://github.com/vansh-khaneja/In-Store-Shelf-Analysis/blob/main/output1.png?raw=true)
 
 
-## Contributors
-[Vansh Khaneja](https://github.com/vansh-khaneja)  (AI-ML/Back-end)
+## Contact
+Feel free to ask any query at vanshkhaneja2004@gmail.com
 
-[Shubham Choudhary](https://github.com/shubhamchoudhary-2003)  (Front-end)
+Happy Coding :)
+
 
 
     
