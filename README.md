@@ -18,9 +18,9 @@ In this project, we used ultralytics ```yolov8``` model to detect the bottles pl
 
 ## Features
 
-- Fast and efficient 
-- Best for Diet freaks 
-- Text and Image multimodal searching
+- Fast and efficient method
+- Optimizable to increase accuarcy
+- Uses `yolov8n` model
 - Real-time Analysis
 
 ## Installation
@@ -40,19 +40,15 @@ In this project, we used ultralytics ```yolov8``` model to detect the bottles pl
     pip install -r requirements.txt
     ```
 
-3. Set up Qdrant:
-
-    Login to [Qdrant Cloud](https://cloud.qdrant.io/) to get the api_key and url.
+3. You can also change the model based on the use case. Here in this project we have used ```yolov8n.pt``` model. Please refer [Ultraytics documentation](https://docs.ultralytics.com/models/yolov8/#supported-tasks-and-modes) for learning about different model sizes. You can change the model here.
    
-   ```sh
-    qdrant_client = QdrantClient(
-    url="https://xxxxxx-xxxxx-xxxxx-xxxx-xxxxxxxxx.us-east.aws.cloud.qdrant.io:6333",
-    api_key="<your-api-key>",
-    )
+    ```sh
+    from ultralytics import YOLO
+    model = YOLO("yolov8n.pt")
+    
     ```
-4. Run the ```data_upload.ipynb``` in jupyter notebook to setup and upload data in vector database.
 
-5. Execute the ```main.py``` file by running this command to run the API.
+4. Execute the ```main.py``` file by running this command to run the API.
 
     ```sh
     python main.py
@@ -62,10 +58,8 @@ In this project, we used ultralytics ```yolov8``` model to detect the bottles pl
 
 
 ## Contact
-Feel free to ask any query at vanshkhaneja2004@gmail.com
 
-Happy Coding :)
+For any questions or issues, feel free to open an issue on this repository or contact me at vanshkhaneja2004@gmail.com.
 
-
-
+Happy coding!
     
