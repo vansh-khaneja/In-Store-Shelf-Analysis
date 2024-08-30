@@ -8,8 +8,7 @@ This repository guides to develop a Store Shelf Analysing system that is capabab
 - [Introduction](#introduction)
 - [Features](#features)
 - [Execution](#execution)
-- [Front-End](#front-end)
-- [Contributors](#contributors)
+- [Contact](#contact)
 
 ## Execution
 
