@@ -1,5 +1,5 @@
 # In-Sore Shelf Analysis 
-This repository guides to develop a Multimodal FastAPI application that leverages the [CLIP](https://openai.com/index/clip/) model for analyzing ```images``` or ```text```. The app performs semantic search to identify and retrieve nutritional information by querying a vector database, making it a powerful tool for multimodal data processing. The fastapi app is connected with web frontend-end written in Next.js for a better user interaction.
+This repository guides to develop a Store Shelf Analysing system that is capabable of counting the no. of object over the shelf along with checking that if all the products are arranged sequentially in a proper way or not. For this purpose I have used ```opencv``` for image processing and ```yolov8``` from [ultralytics](https://docs.ultralytics.com/modes/predict/) to detect the products here bottles in our case.
 
 ![Alt Text - description of the image](https://github.com/vansh-khaneja/In-Store-Shelf-Analysis/blob/main/cobined_output.png?raw=true)
 
