@@ -13,7 +13,8 @@ This repository guides to develop a Store Shelf Analysing system that is capabab
 
 ## Execution
 
-In this project, we used OpenAI ```CLIP``` model to create images embeddings and compare them with the already created text embeddings present in the Qdrant database and give the respective nutirents. The [FastAPI](https://fastapi.tiangolo.com/) model takes the image file as request and after processing give the nutrients as the response.
+In this project, we used ultralytics ```yolov8``` model to detect the bottles placed over the shelf in a store for a defined area like shelf 1, shelf 2 etc. Then by fetching the cordinates of the bottles we are judging whether the bottles are placed sequentially or not.
+
 
 ## Features
 
